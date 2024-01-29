@@ -6,7 +6,7 @@
 /*   By: buonturk <buonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/26 23:52:58 by buonturk          #+#    #+#             */
-/*   Updated: 2024/01/27 17:02:00 by buonturk         ###   ########.fr       */
+/*   Updated: 2024/01/29 18:50:37 by buonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,8 +46,8 @@ int	main(int argc, char **argv)
 	}
 	else
 	{
-		write(1, "Check the number of arguments. It must be 3", 47);
-		write(1, "(Also the PID must be a positive number!)", 42);
+		write(1, "Check the number of arguments. It must be 3", 44);
+		write(1, "\n(Also the PID must be a positive number!)", 43);
 		return (1);
 	}
 	return (0);

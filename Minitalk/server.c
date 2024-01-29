@@ -6,7 +6,7 @@
 /*   By: buonturk <buonturk@student.42kocaeli.co    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/26 23:54:41 by buonturk          #+#    #+#             */
-/*   Updated: 2024/01/27 17:03:30 by buonturk         ###   ########.fr       */
+/*   Updated: 2024/01/29 18:44:59 by buonturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,7 @@ void	bit_rec(int sig)
 	if (i >= 8)
 	{
 		i = 0;
-		if (c >= 0)
-			write(1, &c, 1);
+		write(1, &c, 1);
 	}
 }
 
